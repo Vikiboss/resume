@@ -7,7 +7,7 @@
       "content": "源代码"
     },
     {
-      "href": "https://github.com/vikiboss/resume/raw/main/dist/pdf/resume.pdf",
+      "href": "https://github.com/vikiboss/resume/raw/main/resume.pdf",
       "content": "下载 PDF"
     }
   ],
@@ -59,7 +59,7 @@
         "time": "2021.04 - 2021.09"
       },
       "content": {
-        "position": "主要前端负责人",
+        "position": "前端负责人",
         "tasks": [
           "`React` + `TypeScript` + `Ant Design Pro` + `AntV` + `Umi`",
           "主导项目的技术选型，根据实际业务场景需要构建项目",

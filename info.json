@@ -1,0 +1,209 @@
+{
+  "Author": "Viki - Inspired by Joyee Cheung",
+  "title": "彭浩文 - Web 前端开发实习生",
+  "aside": [
+    {
+      "href": "https://github.com/vikiboss/resume",
+      "content": "源代码"
+    },
+    {
+      "href": "https://github.com/vikiboss/resume/raw/main/dist/pdf/resume.pdf",
+      "content": "下载 PDF"
+    }
+  ],
+  "header": {
+    "online": "https://resume.vikiboss.top",
+    "title": {
+      "name": "彭浩文",
+      "job": "Web 前端开发实习生"
+    },
+    "contacts": {
+      "phone": "13870571024",
+      "mail": "vikiboss@qq.com",
+      "wechat": "VikiQAQ",
+      "github": {
+        "href": "https://github.com/vikiboss",
+        "name": "Vikiboss"
+      }
+    }
+  },
+  "education": {
+    "time": "2019 - 2023",
+    "name": "南昌大学",
+    "major": "专业：计算机科学与技术（本科、211）",
+    "honor": [
+      "2019.09 - 2021.09：南昌大学家园工作室 - 前端组成员",
+      "2019.09 - 2021.09：两届 Hackweek 内部比赛最佳前端",
+      "2019.09 - 至今：连续两年获得校级奖学金"
+    ]
+  },
+  "language": {
+    "cert": [
+      {
+        "name": "CET-4",
+        "grade": 552,
+        "fullmarks": 710
+      },
+      {
+        "name": "CET-6",
+        "grade": 440,
+        "fullmarks": 710
+      }
+    ],
+    "skills": ["能够流畅地阅读英文文献、文档、README、教程等"]
+  },
+  "experience": [
+    {
+      "title": {
+        "place": "南昌大学人工智能研究院 - 南昌大学学生安全主动防御平台",
+        "time": "2021.04 - 2021.09"
+      },
+      "content": {
+        "position": "主要前端负责人",
+        "tasks": [
+          "`React` + `TypeScript` + `Ant Design Pro` + `AntV` + `Umi`",
+          "主导项目的技术选型，根据实际业务场景需要构建项目",
+          "使用 AntV 图表组件实现数据可视化",
+          "提取组件进行复用、拆分业务层、网络层与视图层逻辑",
+          "基于阿里云 OSS 和 GitHub CI 建立自动化构建、部署体系"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "家园工作室 - 数字家园服务平台",
+        "time": "2020.09-2021.04"
+      },
+      "content": {
+        "position": "主要前端参与人",
+        "tasks": [
+          "`React` + `TypeScript` + `Ant Design` + `Umi` + `Dva`",
+          "参与项目后期功能完善、补充与收尾",
+          "使用 约定式 + 配置式 相结合的前端路由机制",
+          "开发工作流程遵循 GitFlow 规范，进行 Code Review",
+          "与后端共同制定 API 交互规范"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "家园工作室 - H5 拼图小游戏",
+        "time": "2020.08-2020.09"
+      },
+      "content": {
+        "position": "前端",
+        "tasks": [
+          "从 0 开始搭建，基于 `React` + `TypeScript` + `webpack` 开发的单页面 Web H5 小游戏",
+          "与后端负责人共同制定项目的 API 接口交互规范",
+          "项目嵌入南大家园 App Webview，能通过 JS Bridge 完成与 App 的通信（认证等操作）"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "家园工作室",
+        "time": "2019.09 - 2021.09"
+      },
+      "content": {
+        "position": "前端组主要成员",
+        "tasks": [
+          "参与工作室内部日常项目的 Web 前端开发",
+          "参与制定新人培养方案、为新人提供前端基础培训",
+          "参与工作室团队协作、代码、Git 规范的制定与完善"
+        ]
+      }
+    }
+  ],
+  "rewards": [],
+  "skills": {
+    "summary": [
+      {
+        "name": "语言",
+        "content": ["HTML 5", "CSS 3", "JavaScript/ECMAScript 6+", "Node.js", "TypeScript"]
+      },
+      {
+        "name": "工具",
+        "content": ["Git", "GitHub", "Visual Studio Code", "Scoop"]
+      }
+    ],
+    "flags": {
+      "name": "Web 前端",
+      "skill": [
+        {
+          "name": "HTML 5/CSS 3",
+          "description": [
+            "使用`语义化`、`结构化`的 HTML 5 编写网页",
+            "了解 CSS 3，并能结合 Sass、Less 等完成样式设计",
+            "熟练使用 `Flex`、`Grid` 布局编写网页",
+            "能够根据需要编写`响应式`、`多端适配`的网页"
+          ]
+        },
+        {
+          "name": "JavaScript/ECMAScript、TypeScript",
+          "description": [
+            "日常使用 `ES 6/7/Next` 进行项目开发",
+            "遵守 ESLint 规范及团队指定的代码规范（如有）",
+            "了解 `TypeScript` 的基本用法，并在个人项目中使用"
+          ]
+        },
+        {
+          "name": "前端框架",
+          "description": [
+            "了解 `React` 基本原理，日常使用 React 编写网页",
+            "熟悉并经常使用 Ant Design (Pro) 作为 UI 组件库",
+            "了解并熟悉 BootStrap、jQuery、lodash 等库的使用",
+            "了解并使用过 Vue 框架开发过项目"
+          ]
+        },
+        {
+          "name": "跨平台",
+          "description": [
+            "了解`微信小程序`开发过程，使用 Taro 框架开发过小程序",
+            "了解基于 `ReactNative` 框架的跨端 App 的开发过程，并实际开发过安卓项目（平台限制不能构建 iOS 版）",
+            "了解并尝试使用 Electron 构建过桌面端应用"
+          ]
+        },
+        {
+          "name": "其他",
+          "description": [
+            "熟悉 `GitFlow` 工作流，能够使用 Git 规范团队协作",
+            "了解并使用过 `CI/CD` 自动化构建流程",
+            "了解并使用过 webpack、Vite 构建项目",
+            "了解过浏览器的底层工作原理与 V8 引擎的执行机制"
+          ]
+        }
+      ]
+    },
+    "cloud": {
+      "name": "Node.js",
+      "skill": [
+        {
+          "name": "Node.js",
+          "description": [
+            "熟悉 Node.js 基本使用并能编写实用的 JavaScript 脚本",
+            "了解过 Express、Koa、Eggjs 等 Node.js 服务端框架",
+            "基于开源协议修改并完善自用插件式 QQ 机器人框架"
+          ]
+        },
+        {
+          "name": "其它知识",
+          "description": ["了解 `TCP/IP` 模型和 `HTTP` 1.1、2 等协议及基本特征"]
+        }
+      ]
+    },
+    "gears": {
+      "name": "学习状态",
+      "skill": [
+        {
+          "name": "保持热爱",
+          "description": [
+            "对前端技术始终保持一颗热忱之心，保持热爱",
+            "常逛技术社区紧跟前沿，丰富自身知识储备、拓宽视野",
+            "善于发掘和使用实用的工具、插件，提高日常开发效率",
+            "寻求并合理使用 MDN、GitHub issues、Google、Stack Overflow 等平台解决开发中的问题"
+          ]
+        }
+      ]
+    }
+  }
+}

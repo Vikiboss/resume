@@ -1,0 +1,33 @@
+{
+  "name": "viki-resume",
+  "version": "2.0.0",
+  "description": "Resume written by Gulp + Sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp clean && gulp dev",
+    "pdf": "gulp pdf",
+    "dev": "gulp dev",
+    "deploy": "gulp pdf && gulp deploy --no-sandbox && git add -A && git commit -m 'update resume' && git push origin master"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "author": "viki <vikiboss@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "^0.0.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^4.1.0",
+    "jade": "^1.11.0",
+    "puppeteer": "^5.3.1",
+    "rimraf-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.12.4",
+    "gulp-clean": "^0.3.2",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}

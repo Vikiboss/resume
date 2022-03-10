@@ -1,0 +1,66 @@
+@import "_include-media.scss";
+@import "components/aside.scss";
+@import "components/header.scss";
+@import "components/content.scss";
+@import "components/footer.scss";
+
+* {
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+html, body {
+  font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB",
+    "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  background: #f4f8fb;
+  -webkit-font-smoothing: antialiased;
+
+  @include media("print") {
+    background-color: #ffffff;
+  }
+}
+
+a,
+strong {
+  color: #3eb0ef;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.container {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+
+  @include media(">=desktop") {
+    width: 970px;
+  }
+
+  @include media(">=tablet", "<=desktop") {
+    width: 750px;
+  }
+
+  @include media("<=phone") {
+    margin-top: 0;
+    padding: 5px 0;
+    box-shadow: 0 0 0;
+  }
+
+  @include media("print") {
+    margin-top: 0;
+    box-shadow: 0 0 0;
+  }
+}

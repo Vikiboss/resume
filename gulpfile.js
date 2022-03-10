@@ -116,7 +116,7 @@ gulp.task(
     await page.pdf({
       path: exportPath,
       width: '10in',
-      height: '27in',
+      height: '16in',
       printBackground: true,
       displayHeaderFooter: false,
       margin: {

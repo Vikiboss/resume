@@ -79,15 +79,6 @@ gulp.task('clean', (done) => {
   done();
 });
 
-gulp.task('deploy', () =>
-  gulp.src('./dist/**/*').pipe(
-    ghPages({
-      remoteUrl: 'git@github.com:lenconda/lenconda.github.io.git',
-      branch: 'master',
-    })
-  )
-);
-
 let port = 9000;
 
 // 避免打印时，同时运行开发服务报错
@@ -119,11 +110,8 @@ gulp.task(
     await page.goto('http://localhost:9001');
     await delay(3000);
 
-    const exportPath = path.join(__dirname, './dist/pdf/resume.pdf');
-
-    fs.mkdir(path.join(__dirname, './dist/pdf'), () =>
-      fs.writeFileSync(exportPath, '', { encoding: 'utf-8' })
-    );
+    const exportPath = path.join(__dirname, './resume.pdf');
+    fs.writeFileSync(exportPath, '', { encoding: 'utf-8' });
 
     await page.pdf({
       path: exportPath,

@@ -6,8 +6,7 @@
   "scripts": {
     "start": "gulp clean && gulp dev",
     "pdf": "gulp pdf",
-    "dev": "gulp dev",
-    "deploy": "gulp pdf && gulp deploy --no-sandbox && git add -A && git commit -m 'update resume' && git push origin master"
+    "dev": "gulp dev"
   },
   "engines": {
     "node": ">=8.9.0"

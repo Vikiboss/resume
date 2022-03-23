@@ -3,10 +3,8 @@ const path = require('path');
 
 const gulp = require('gulp');
 const jade = require('gulp-jade');
-const copy = require('gulp-copy');
 const sass = require('gulp-sass');
 const connect = require('gulp-connect');
-const ghPages = require('gulp-gh-pages');
 const autoprefixer = require('gulp-autoprefixer');
 
 const puppeteer = require('puppeteer');
@@ -115,8 +113,9 @@ gulp.task(
 
     await page.pdf({
       path: exportPath,
-      width: '10in',
-      height: '16in',
+      // format: 'A4',
+      width: '10.24in',
+      height: '14.82in',
       printBackground: true,
       displayHeaderFooter: false,
       margin: {

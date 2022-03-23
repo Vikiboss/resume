@@ -4,9 +4,8 @@
   "description": "Resume written by Gulp + Sass",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp clean && gulp dev",
-    "pdf": "gulp pdf",
-    "dev": "gulp dev"
+    "dev": "gulp clean && gulp dev",
+    "pdf": "gulp pdf"
   },
   "engines": {
     "node": ">=8.9.0"

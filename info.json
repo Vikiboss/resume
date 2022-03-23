@@ -62,10 +62,9 @@
         "position": "前端负责人",
         "tasks": [
           "`React` + `TypeScript` + `Ant Design Pro` + `AntV` + `Umi`",
-          "主导项目的技术选型，根据实际业务场景需要构建项目",
-          "使用 AntV 图表组件实现数据可视化",
-          "提取组件进行复用、拆分业务层、网络层与视图层逻辑",
-          "基于阿里云 OSS 和 GitHub CI 建立自动化构建、部署体系"
+          "参与项目技术选型，根据实际业务场景需要构建项目",
+          "复用高频组件，拆分项目逻辑层、网络层与视图层",
+          "基于阿里云 OSS 与 GitHub CI 建立自动化构建、部署体系"
         ]
       }
     },
@@ -78,10 +77,9 @@
         "position": "主要前端参与人",
         "tasks": [
           "`React` + `TypeScript` + `Ant Design` + `Umi` + `Dva`",
-          "参与项目后期功能完善、补充与收尾",
-          "使用 约定式 + 配置式 相结合的前端路由机制",
-          "开发工作流程遵循 GitFlow 规范，进行 Code Review",
-          "与后端共同制定 API 交互规范"
+          "参与项目后期的功能完善、补充与收尾",
+          "开发流程遵循 GitFlow 规范，并进行 Code Review",
+          "与后端共同制定项目 API 交互规范"
         ]
       }
     },
@@ -93,9 +91,10 @@
       "content": {
         "position": "前端",
         "tasks": [
-          "从 0 开始搭建，基于 `React` + `TypeScript` + `webpack` 开发的单页面 Web H5 小游戏",
+          "`React` + `TypeScript` + `webpack` + `Sass`",
+          "无脚手架，从 0 开始搭建的单页面 HTML 5 小游戏",
           "与后端负责人共同制定项目的 API 接口交互规范",
-          "项目嵌入南大家园 App Webview，能通过 JS Bridge 完成与 App 的通信（认证等操作）"
+          "嵌入南大家园 Webview，通过 JS Bridge 与 App 通信"
         ]
       }
     },
@@ -107,9 +106,9 @@
       "content": {
         "position": "前端组主要成员",
         "tasks": [
-          "参与工作室内部日常项目的 Web 前端开发",
-          "参与制定新人培养方案、为新人提供前端基础培训",
-          "参与工作室团队协作、代码、Git 规范的制定与完善"
+          "参与工作室内部日常项目的 Web 前端项目开发",
+          "参与制定新人培养方案，为新人提供前端基础培训",
+          "参与工作室团队协作规范、Git 规范和代码规范的完善"
         ]
       }
     }
@@ -119,57 +118,58 @@
     "summary": [
       {
         "name": "语言",
-        "content": ["HTML 5", "CSS 3", "JavaScript/ECMAScript 6+", "Node.js", "TypeScript"]
+        "content": ["HTML 5", "CSS 3", "JavaScript/ECMAScript 6+", "TypeScript", "Node.js"]
       },
       {
         "name": "工具",
-        "content": ["Git", "GitHub", "Visual Studio Code", "Scoop"]
+        "content": ["Git", "GitHub", "Visual Studio Code", "Windows Terminal", "Postman", "Scoop"]
       }
     ],
     "flags": {
       "name": "Web 前端",
       "skill": [
         {
-          "name": "HTML 5/CSS 3",
+          "name": "HTML 5 / CSS 3",
           "description": [
             "使用`语义化`、`结构化`的 HTML 5 编写网页",
-            "了解 CSS 3，并能结合 Sass、Less 等完成样式设计",
-            "熟练使用 `Flex`、`Grid` 布局编写网页",
-            "能够根据需要编写`响应式`、`多端适配`的网页"
+            "了解 CSS 3，并能结合 Sass、Less 完成样式编写",
+            "熟练使用 `Flex`、Grid 等现代布局方式编写网页",
+            "根据实际需求编写`响应式`、`多端适配`的网页"
           ]
         },
         {
           "name": "JavaScript/ECMAScript、TypeScript",
           "description": [
             "日常使用 `ES 6/7/Next` 进行项目开发",
-            "遵守 ESLint 规范及团队指定的代码规范（如有）",
+            "遵守 ESLint 及团队制定的代码规范（如果有）",
             "了解 `TypeScript` 的基本用法，并在个人项目中使用"
           ]
         },
         {
-          "name": "前端框架",
+          "name": "框架与工具",
           "description": [
             "了解 `React` 基本原理，日常使用 React 编写网页",
-            "熟悉并经常使用 Ant Design (Pro) 作为 UI 组件库",
-            "了解并熟悉 BootStrap、jQuery、lodash 等库的使用",
-            "了解并使用过 Vue 框架开发过项目"
+            "熟悉并使用 Ant Design (Pro) 作为主要 UI 组件库",
+            "了解并使用过 `webpack`、Vite 构建项目",
+            "了解并使用过 Vue 框架开发项目"
           ]
         },
         {
           "name": "跨平台",
           "description": [
-            "了解`微信小程序`开发过程，使用 Taro 框架开发过小程序",
-            "了解基于 `ReactNative` 框架的跨端 App 的开发过程，并实际开发过安卓项目（平台限制不能构建 iOS 版）",
-            "了解并尝试使用 Electron 构建过桌面端应用"
+            "了解并使用过 Taro 框架开发微信小程序",
+            "了解基于 ReactNative 的跨端 App 的开发过程，并有实际的项目开发经验",
+            "了解并尝试使用过 Electron 构建桌面端应用"
           ]
         },
         {
           "name": "其他",
           "description": [
-            "熟悉 `GitFlow` 工作流，能够使用 Git 规范团队协作",
-            "了解并使用过 `CI/CD` 自动化构建流程",
-            "了解并使用过 webpack、Vite 构建项目",
-            "了解过浏览器的底层工作原理与 V8 引擎的执行机制"
+            "熟悉 `GitFlow` 工作流，使用 Git 工具规范团队协作",
+            "了解并使用过 `CI/CD` 持续集成、交付和部署流程",
+            "了解 `TCP/IP` 模型和 `HTTP` 1.1、2 协议",
+            "了解过浏览器的底层工作原理与 V8 引擎的执行机制",
+            "日常使用 Markdown 编写文档、技术博客"
           ]
         }
       ]
@@ -178,16 +178,11 @@
       "name": "Node.js",
       "skill": [
         {
-          "name": "Node.js",
           "description": [
-            "熟悉 Node.js 基本使用并能编写实用的 JavaScript 脚本",
-            "了解过 Express、Koa、Eggjs 等 Node.js 服务端框架",
-            "基于开源协议修改并完善自用插件式 QQ 机器人框架"
+            "熟悉 Node.js 的基本使用",
+            "能够编写实用的 JavaScript 脚本",
+            "了解过 Express、`Koa`、Eggjs 等 Node.js 服务端框架"
           ]
-        },
-        {
-          "name": "其它知识",
-          "description": ["了解 `TCP/IP` 模型和 `HTTP` 1.1、2 等协议及基本特征"]
         }
       ]
     },
@@ -195,12 +190,11 @@
       "name": "学习状态",
       "skill": [
         {
-          "name": "保持热爱",
           "description": [
-            "对前端技术始终保持一颗热忱之心，保持热爱",
-            "常逛技术社区紧跟前沿，丰富自身知识储备、拓宽视野",
-            "善于发掘和使用实用的工具、插件，提高日常开发效率",
-            "寻求并合理使用 MDN、GitHub issues、Google、Stack Overflow 等平台解决开发中的问题"
+            "对前端技术始终怀着一颗热忱之心，保持热爱",
+            "常逛技术社区，紧跟前沿，丰富知识储备，拓宽视野",
+            "善于发掘实用的工具、插件，提高日常开发效率",
+            "合理使用 MDN、GitHub issues、Google、Stack Overflow 等平台解决实际开发中的问题"
           ]
         }
       ]

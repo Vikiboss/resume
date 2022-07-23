@@ -1,20 +1,19 @@
 header {
   color: #333;
   background-color: #fff;
-  padding-bottom: 50px !important;
+  padding-bottom: 30px !important;
   padding-top: 40px;
-  @include media("<tablet") {
+  @include media('<tablet') {
     padding: 30px 10px;
-  }
-  @include media("print") {
-    // padding: 20px 45px;
   }
 
   .online {
     display: none;
 
-    @include media("print") {
+    @include media('print') {
       display: block;
+      margin-top: 8px;
+      font-weight: normal;
     }
   }
 
@@ -26,19 +25,20 @@ header {
     background: #15171a 50%;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.28), 0px 0px 8px rgba(39, 44, 49, 0.03);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.28),
+      0px 0px 8px rgba(39, 44, 49, 0.03);
 
-    @include media("<=phone") {
+    @include media('<=phone') {
       margin: 0 12px !important;
     }
 
     a {
       color: #fff;
-      transition: all .4s;
+      transition: all 0.4s;
 
       &:hover {
-        color: rgba(255, 255, 255, .5);
-        transition: all .4s;
+        color: rgba(255, 255, 255, 0.5);
+        transition: all 0.4s;
       }
     }
 
@@ -48,7 +48,8 @@ header {
       justify-content: center;
       height: 100%;
 
-      h1, h2 {
+      h1,
+      h2 {
         margin: 0;
         padding: 0;
       }
@@ -63,10 +64,10 @@ header {
 .qrcode {
   float: left;
   margin: 0;
-  @include media("<=desktop") {
+  @include media('<=desktop') {
     display: none;
   }
-  @include media("print") {
+  @include media('print') {
     display: block;
     // margin-top: 5px;
   }
@@ -80,14 +81,14 @@ header {
   float: right;
   text-align: right;
   // margin-bottom: 30px;
-  @include media("<tablet") {
+  @include media('<tablet') {
     float: none;
     text-align: center;
     h2 {
       padding: 0 6px;
     }
   }
-  @include media("print") {
+  @include media('print') {
     float: right;
     text-align: right;
   }
@@ -97,12 +98,18 @@ header {
     font-weight: 200;
     margin: 5px 0;
     padding: 5px 0;
+    @include media('print') {
+      font-weight: normal;
+    }
   }
   h2 {
     font-size: 20.8px;
     font-weight: 200;
     margin: 5px 0;
     padding: 5px 6px;
+    @include media('print') {
+      font-weight: normal;
+    }
   }
 }
 
@@ -112,7 +119,7 @@ address {
 
 .phone {
   display: none;
-  @include media("print") {
+  @include media('print') {
     display: block;
   }
 }
@@ -127,15 +134,15 @@ address {
   font-size: 18px;
   float: left;
   padding-left: 16px;
-  @include media("<=desktop") {
+  @include media('<=desktop') {
     margin-top: 5px;
     li {
       line-height: 1.6;
     }
   }
-  @include media("print") {
+  @include media('print') {
     line-height: 1.4;
-    margin-top: 0;
+    margin-top: 4px;
   }
   li {
     font-style: initial;

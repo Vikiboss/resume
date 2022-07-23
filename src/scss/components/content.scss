@@ -14,9 +14,9 @@ $white: #fff;
 
 section {
   margin-bottom: 14px;
-  @include media("print") {
-    margin-bottom: 8px;
-  }
+  // @include media("print") {
+  //   margin-bottom: 8px;
+  // }
 }
 
 @include media("print") {
@@ -24,7 +24,7 @@ section {
     margin: 10px 0;
   }
   dd {
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 14;
   }
 }
@@ -54,7 +54,7 @@ dd {
 
 .content {
   overflow: hidden;
-  padding: 30px 45px;
+  padding: 0px 45px 30px 45px;
   // padding: 20px 20px;
   background: $white;
 
@@ -63,7 +63,7 @@ dd {
   }
 
   @include media("print") {
-    padding: 12px 12px !important;
+    padding: 16px 16px !important;
   }
 }
 
@@ -229,7 +229,7 @@ dd {
     }
     font-size: 15px;
     float: right;
-    margin-right: 10px;
+    margin-right: 12px;
   }
   .experience-link {
     display: block;

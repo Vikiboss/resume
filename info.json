@@ -1,13 +1,13 @@
 {
-  "Author": "Viki - Inspired by Joyee Cheung",
+  "Author": "Viki",
   "title": "彭浩文 - Web 前端开发实习生",
   "aside": [
     {
       "href": "https://github.com/vikiboss/resume",
-      "content": "源代码"
+      "content": "查看源代码"
     },
     {
-      "href": "https://github.com/vikiboss/resume/raw/master/resume.pdf",
+      "href": "https://github.com/vikiboss/resume/raw/main/resume.pdf",
       "content": "下载 PDF"
     }
   ],
@@ -30,11 +30,10 @@
   "education": {
     "time": "2019.9 - 2023.6",
     "name": "南昌大学（211）",
-    "major": "就读专业：计算机科学与技术（本科）",
+    "major": "计算机科学与技术专业（本科）",
     "honor": [
       "2019.9 - 2021.6：南昌大学家园工作室 前端组成员",
-      "2019.9 - 2021.6：两届 Hackweek 内部比赛最佳前端",
-      "2019.9 - 2021.6：连续两年获得校级奖学金"
+      "2019.9 - 2021.6：两届 Hackweek 内部比赛最佳前端"
     ]
   },
   "language": {
@@ -50,12 +49,26 @@
         "fullmarks": 710
       }
     ],
-    "skills": ["能够流畅地阅读英文文献、技术文档、README"]
+    "skills": ["能够流畅地阅读英文文献、技术文档和README"]
   },
   "experience": [
     {
       "title": {
-        "place": "南昌大学人工智能研究院 - 南昌大学学生安全主动防御平台",
+        "place": "北京百度网讯科技有限公司 - 搜索产品研发部",
+        "time": "2022.6 - 至今"
+      },
+      "content": {
+        "position": "前端开发实习生",
+        "tasks": [
+          "参与搜索资源平台 B 端业务的日常维护、需求跟进",
+          "迁移百度内部某个 PaaS 平台业务并重构部分模块",
+          "接触商业化模式，加深了对实际商业场景下的业务认知"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "南昌大学人工智能研究院 - 学生安全主动防御平台",
         "time": "2021.4 - 2021.9"
       },
       "content": {
@@ -70,31 +83,16 @@
     },
     {
       "title": {
-        "place": "家园工作室 - 数字家园服务平台",
+        "place": "家园工作室 - 学生信息服务平台",
         "time": "2020.9-2021.4"
       },
       "content": {
         "position": "主要前端参与人",
         "tasks": [
           "`React` + `TypeScript` + `Ant Design` + `Umi` + `Dva`",
-          "参与项目后期的功能完善、补充与收尾",
-          "开发流程遵循 GitFlow 规范，进行 Code Review",
-          "与后端共同制定项目 API 交互规范"
-        ]
-      }
-    },
-    {
-      "title": {
-        "place": "家园工作室 - H5 拼图小游戏",
-        "time": "2020.8-2020.9"
-      },
-      "content": {
-        "position": "前端",
-        "tasks": [
-          "`React` + `TypeScript` + `webpack` + `Sass`",
-          "无脚手架，从 0 开始搭建的单页面 HTML 5 小游戏",
-          "与后端负责人共同制定项目的 API 接口交互规范",
-          "嵌入南大家园 Webview，通过 JS Bridge 与 App 通信"
+          "参与项目后期的功能完善、补充与收尾工作",
+          "开发流程遵循 GitFlow 规范，严格执行 Code Review",
+          "在近万级 DAU 的大流量场景下服务全校师生"
         ]
       }
     },
@@ -106,7 +104,7 @@
       "content": {
         "position": "前端组主要成员",
         "tasks": [
-          "参与工作室内部 Web 前端日常项目的开发",
+          "参与工作室内部 Web 前端日常项目的开发和维护",
           "参与制定新人培养方案，为新人提供前端基础培训",
           "参与工作室团队协作规范、Git 规范和代码规范的完善"
         ]
@@ -118,11 +116,25 @@
     "summary": [
       {
         "name": "语言",
-        "content": ["HTML 5", "CSS 3", "JavaScript/ECMAScript 6+", "TypeScript", "Node.js"]
+        "content": [
+          "HTML 5",
+          "CSS 3",
+          "JavaScript/ECMAScript 6+",
+          "React",
+          "TypeScript",
+          "Node.js"
+        ]
       },
       {
         "name": "工具",
-        "content": ["Git", "GitHub", "Visual Studio Code", "Windows Terminal", "Postman", "Scoop"]
+        "content": [
+          "Git",
+          "GitHub",
+          "Visual Studio Code",
+          "Windows Terminal",
+          "Postman",
+          "Scoop"
+        ]
       }
     ],
     "flags": {
@@ -131,58 +143,57 @@
         {
           "name": "HTML 5 / CSS 3",
           "description": [
-            "使用`语义化`、`结构化`的 HTML 5 编写网页",
-            "了解 CSS 3，结合 Sass、Less 完成样式编写",
-            "熟练使用 `Flex`、Grid 等现代布局方式编写网页",
-            "根据实际需求编写`响应式`、`多端适配`的网页"
+            "使用语义化、结构化的 HTML 5 编写网页",
+            "了解 CSS 3，拥抱 Less、Sass、PostCSS",
+            "熟练使用 `Flex` 等高效率的现代布局方式",
+            "根据实际业务需求编写响应式、多端适配的网页"
           ]
         },
         {
           "name": "JavaScript/ECMAScript、TypeScript",
           "description": [
-            "日常使用 `ES 6/7/Next` 进行项目开发",
+            "日常使用 `ES 6+` 进行项目开发",
             "遵守 ESLint 规范及团队制定的代码规范（如果有）",
-            "了解 `TypeScript` 的基本用法，并在个人项目中使用"
+            "熟悉 `TypeScript` 的基本用法，并在个人项目中使用"
           ]
         },
         {
           "name": "框架与工具",
           "description": [
             "了解 `React` 基本原理，日常使用 React 编写网页",
-            "熟悉并使用 `Ant Design (Pro)` 作为主要 UI 组件库",
-            "了解并使用过 `webpack`、Vite 构建前端项目",
-            "了解并使用过 Vue 框架开发项目"
+            "熟悉并使用 Ant Design (Pro) 作为主要 UI 组件库",
+            "了解并使用过 webpack、Vite 等工具构建前端项目",
+            "了解并使用过 Vue 框架开发和维护项目"
           ]
         },
         {
-          "name": "跨平台",
+          "name": "Node.js",
           "description": [
-            "了解并使用过 Taro 框架开发微信小程序",
-            "了解并使用过 React Native 开发跨端 App",
-            "了解并尝试使用过 Electron 构建桌面端应用"
+            "熟悉 Node.js 的基本使用，能开发简单 Web 服务",
+            "常编写实用的 JavaScript 脚本辅助开发",
+            "了解过 Express、Koa、Eggjs 等 Node.js 服务端框架"
           ]
         },
         {
           "name": "其他",
           "description": [
-            "熟悉 `GitFlow` 工作流，使用 Git 工具规范团队协作",
-            "了解并使用过 CI/CD 持续集成、交付和部署流程",
-            "了解 `TCP/IP` 模型和 `HTTP` 协议",
+            "熟悉 GitFlow 工作流，高质量地交付业务代码",
+            "了解 TCP/IP 模型和 HTTP 协议",
             "了解过浏览器的底层工作原理与 V8 引擎的执行机制",
-            "使用 `Markdown` 编写文档、技术博客"
+            "日常使用 Markdown 编写文档、技术博客"
           ]
         }
       ]
     },
     "cloud": {
-      "name": "Node.js",
+      "name": "跨平台",
       "skill": [
         {
-          "name": "Node.js",
+          "name": "跨端开发",
           "description": [
-            "熟悉 Node.js 的基本使用",
-            "常编写实用的 JavaScript 脚本辅助开发",
-            "了解过 Express、Koa、Eggjs 等 Node.js 服务端框架"
+            "了解并使用过 Taro 框架开发多平台小程序",
+            "了解并使用过 React Native 开发跨端 App",
+            "了解并使用过 Electron 构建桌面跨端应用"
           ]
         }
       ]
@@ -195,7 +206,7 @@
             "对前端技术始终怀着一颗热忱之心，`保持热爱`",
             "常逛技术社区，紧跟前沿，丰富知识储备，拓宽视野",
             "善于发掘实用的工具、插件，提高日常开发效率",
-            "合理使用 MDN、GitHub issues、Google、Stack Overflow 等平台解决实际开发中的问题"
+            "熟练使用 MDN、GitHub issues、Google、Stack Overflow 等平台解决实际开发中遇到的各种问题"
           ]
         }
       ]

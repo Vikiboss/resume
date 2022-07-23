@@ -8,7 +8,7 @@
     "pdf": "gulp pdf"
   },
   "engines": {
-    "node": ">=8.9.0"
+    "node": "12.22.1"
   },
   "author": "viki <vikiboss@qq.com>",
   "license": "MIT",
